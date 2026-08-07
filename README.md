@@ -11,32 +11,55 @@ RBI ATM & Payment Systems Infrastructure Analysis is a data-driven project evalu
   Table of Contents Project Overview Key Features Data Architecture & Pipeline Feature Engineering Project Structure Installation & SetupVisualizations & Key Insights Technologies Used Project Overview Digital payment adoption and physical banking footprints have transformed rapidly across India. This project performs an in-depth Exploratory Data Analysis (EDA) on multi-year ATM, POS terminal, and credit/debit card deployment statistics.
   
   By benchmarking Public Sector Banks against Private Sector Banks, this analysis highlights structural shifts in delivery channel preferences, card issuance density, and payment point expansion .Key Features Robust Data Cleaning: Implements multi-tier Hierarchical Imputation (Bank Name $\right arrow$ Bank Category $\right arrow$ Global Median) to resolve missing values without distorting sectoral variances.
+
+---------------------------------------
   
   Statistical Profiling: Evaluates central tendency, dispersion, skewness, and kurtosis across financial metrics.
   
   Outlier Mitigation: Applies IQR-based Winsorization (Capping) to handle heavy-tailed payment volumes without removing critical bank-level records.
   
   Multivariate Exploratory Analysis: Evaluates channel efficiency using custom-engineered ratios and correlation heatmaps.
+
+  --------------------------------------
   
   Data Architecture & Pipeline Raw Banking Data / Synthetic RBI Feed
+  
                     │
+                    
                     ▼
+                    
      1. Inspection & Cleaning
+     
   (Duplicates Removal & Null Detection)
+  
                     │
+                    
                     ▼
+                    
   2. Hierarchical Missing Value Imputation
+
  (Bank Name Median ➔ Category Median ➔ Overall Median)
+
                     │
+     
                     ▼
+     
         3. Feature Engineering
+     
   (Total ATMs, POS Ratio, Off-Site Share, Card Density)
+  
                     │
+                    
                     ▼
-   4. Statistical Profiling & IQR Capping
+                    
+   5. Statistical Profiling & IQR Capping
+      
                     │
+      
                     ▼
+      
     5. EDA Visualizations Output
+    
  (Univariate, Bivariate, Multivariate Plots)
  
 **Feature Engineering** 
