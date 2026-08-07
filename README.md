@@ -22,47 +22,28 @@ RBI ATM & Payment Systems Infrastructure Analysis is a data-driven project evalu
 
   --------------------------------------
   
-  Data Architecture & Pipeline Raw Banking Data / Synthetic RBI Feed
+  **Data Architecture & Pipeline Raw Banking Data / Synthetic RBI Feed**
   
-                    │
-                    
-                    ▼
-                    
-     1. Inspection & Cleaning
+**1. Inspection & Cleaning**
      
   (Duplicates Removal & Null Detection)
   
-                    │
-                    
-                    ▼
-                    
-  2. Hierarchical Missing Value Imputation
+**2. Hierarchical Missing Value Imputation**
 
  (Bank Name Median ➔ Category Median ➔ Overall Median)
 
-                    │
-     
-                    ▼
-     
-        3. Feature Engineering
+**3. Feature Engineering**
      
   (Total ATMs, POS Ratio, Off-Site Share, Card Density)
   
-                    │
-                    
-                    ▼
-                    
-   5. Statistical Profiling & IQR Capping
-      
-                    │
-      
-                    ▼
-      
-    5. EDA Visualizations Output
+**4. Statistical Profiling & IQR Capping**
+  
+**5. EDA Visualizations Output**
     
  (Univariate, Bivariate, Multivariate Plots)
  
 **Feature Engineering** 
+
   To gain deeper operational insights beyond raw counts, the following derived metrics were calculated: **Metric Formula Business Purpose Total** ATMs$\text{On-Site ATMs} + \text{Off-Site ATMs}$ Measures total physical ATM footprint.
 
   **POS-to-ATM Ratio** $\frac{\text{POS Terminals}}{\text{Total ATMs}}$ Tracks digital merchant terminal growth vs physical cash access.
@@ -72,6 +53,7 @@ RBI ATM & Payment Systems Infrastructure Analysis is a data-driven project evalu
   **Card Density per ATM** $\frac{\text{Debit Cards}}{\text{Total ATMs}}$ Assesses physical ATM network utilization capacity.
   
   **Project Structure**├── data/
+  
 │   └── rbi_atm_card_data.csv          # Banking dataset
 ├── outputs/
 │   ├── univariate_analysis.png        # Distribution & count plots
