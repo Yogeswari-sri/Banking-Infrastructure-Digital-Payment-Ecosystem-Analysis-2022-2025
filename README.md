@@ -5,9 +5,10 @@ An end-to-end Python-based Exploratory Data Analysis (EDA) on RBI ATM and paymen
 **Project Objective**
 The Primary Objective of this project is to profile banking performance across commercial and specialized banking sectors by evaluating four key operational pillars:
 1.	Customer Card Adoption
-2.	Spending Efficiency
-3.	Merchant QR Integration
-4.	ATM Infrastructure Deployment Strategies
+   
+3.	Spending Efficiency
+4.	Merchant QR Integration
+5.	ATM Infrastructure Deployment Strategies
 Rather than viewing all banks as a single monolith, this project breaks down how full-service commercial mega-banks compare against niche, specialized payment institutions."
 
 -------------------
