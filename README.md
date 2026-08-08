@@ -1,18 +1,28 @@
-# RBI-ATM-Payment-Systems-Infrastructure-Analysis-using-Python-
+# India’s Banking Payment and ATM Infrastructure dataset-using-Python-
 An end-to-end Python-based Exploratory Data Analysis (EDA) on RBI ATM and payment systems infrastructure. Analyzes ATM deployment (On-site vs Off-site), POS expansion, and card issuance dynamics across Public and Private sector Indian banks using Pandas, Seaborn, and statistical profiling.
 
 ----------------------------
 **Project Objective**
-RBI ATM & Payment Systems Infrastructure Analysis is a data-driven project evaluating the evolution of retail banking channels in India. Utilizing monthly banking stats, this analysis explores physical ATM footprints, POS terminal deployment, debit/credit card issuance patterns, and card density metrics between Public and Private sector banks. The project incorporates rigorous data cleaning (hierarchical imputation & duplicate handling), feature engineering, statistical profiling, and multivariate visualizations using Python.
+The Primary Objective of this project is to profile banking performance across commercial and specialized banking sectors by evaluating four key operational pillars:
+1.	Customer Card Adoption
+2.	Spending Efficiency
+3.	Merchant QR Integration
+4.	ATM Infrastructure Deployment Strategies
+Rather than viewing all banks as a single monolith, this project breaks down how full-service commercial mega-banks compare against niche, specialized payment institutions."
 
 -------------------
 
-**RBI ATM & Payment Systems Infrastructure Analysis**
-  An end-to-end Python data analytics project examining the evolution of retail payment infrastructure across public and private sector Indian banks using Reserve Bank of India (RBI) transaction data.
-  
-  Table of Contents Project Overview Key Features Data Architecture & Data Analyst Feature Engineering Project Structure Installation & SetupVisualizations & Key Insights Technologies Used Project Overview Digital payment adoption and physical banking footprints have transformed rapidly across India. This project performs an in-depth Exploratory Data Analysis (EDA) on multi-year ATM, POS terminal, and credit/debit card deployment statistics.
-  
-  By benchmarking Public Sector Banks against Private Sector Banks, this analysis highlights structural shifts in delivery channel preferences, card issuance density, and payment point expansion .Key Features Robust Data Cleaning: Implements multi-tier Hierarchical Imputation (Bank Name $\right arrow$ Bank Category $\right arrow$ Global Median) to resolve missing values without distorting sectoral variances.
+**India’s Banking Payment and ATM Infrastructure dataset**
+
+To achieve this primary objective, I structured the analysis around four core statistical sub-goals:
+
+•	First, Quantifying Central Tendency & Data Dispersion: Measuring averages (Mean) and median customer touchpoints, while analyzing Variance, Standard Deviation, Skewness, and Kurtosis to ensure mega-banks do not distort industry standards.
+
+•	Second, Profiling Single Features through Univariate Analysis: Examining the exact distribution of total cardholder bases and evaluating customer spending patterns (avg_spend_per_cc) using histograms and boxplots to spot high-value performance outliers.
+
+•	Third, Assessing Channel Synergy through Bivariate Analysis: Evaluating how card volume converts into actual transaction processing value, ranking institutions by spending efficiency, and calculating correlation matrices between merchant QR networks and debit card adoption.
+
+•	Fourth, Evaluating Network Strategy through Multivariate Analysis: Analyzing On-Site versus Off-Site ATM footprints to determine if institutions prioritize branch-centric operations or retail convenience, while mapping multi-channel interactions across Credit, Debit, and QR ecosystems simultaneously using pairplots.
 
 ---------------------------------------
   
