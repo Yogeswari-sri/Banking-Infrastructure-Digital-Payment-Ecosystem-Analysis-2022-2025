@@ -1,4 +1,4 @@
-readme_content = # Banking Infrastructure & Digital Payment Ecosystem Analysis 2022-2025
+# Banking Infrastructure & Digital Payment Ecosystem Analysis 2022-2025
 
 An end-to-end Python data analytics project evaluating transaction benchmarks, physical vs. digital payment infrastructure, and channel interactions across commercial and specialized banking sectors.
 
