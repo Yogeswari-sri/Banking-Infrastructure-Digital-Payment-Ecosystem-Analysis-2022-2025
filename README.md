@@ -16,46 +16,66 @@ An end-to-end Python data analytics project evaluating transaction benchmarks, p
 
 ---
 
-## 📌 Project Overview
-The financial payments ecosystem is undergoing a rapid transition from physical cash infrastructure to digital merchant acceptance networks. This project delivers an exploratory and statistical analysis of banking infrastructure metrics—evaluating card issuance footprints, ATM deployment strategies (On-Site vs. Off-Site), QR merchant acceptance rates, and transaction volumes across POS and e-commerce channels.
+# Banking Infrastructure & Digital Payment Ecosystem Analysis (2022–2025)
 
-Using robust statistical profiling (univariate, bivariate, and multivariate analysis), this project identifies industry benchmarks, market concentration trends, and payment efficiency metrics across major banking institutions.
+## 📌 Project Overview
+This project analyzes **RBI ATM & POS infrastructure** and **digital payment ecosystem trends** across Indian banks (public & private).  
+Focus: ATM deployment (on-site vs off-site), POS expansion, card issuance, and transaction benchmarks.
 
 ---
 
 ## 🎯 Key Objectives
-
+- Compare **ATM deployment trends** (2022–2025) across bank categories.  
+- Evaluate **POS terminal growth** and digital adoption.  
+- Study **card issuance dynamics** (debit vs credit).  
+- Identify **outlier transactions** and their business impact.  
 
 ---
 
 ## 🛠 Tech Stack & Tools
-
-- **Language:** Python 3.10+
-- **Data Manipulation:** `pandas`, `numpy`
-- **Data Visualization:** `matplotlib`, `seaborn`, `plotly`
-- **Statistical Analysis:** `scipy.stats`
-- **Environment:** Jupyter Notebook / VS Code
+- **Python** → Pandas, NumPy, Seaborn, Matplotlib  
+- **EDA & Profiling** → Statistical summaries, boxplots, outlier detection  
+- **Visualization** → Trend analysis, comparative charts  
+- **Documentation** → Recruiter‑friendly insights + dashboards  
 
 ---
 
 ## 📂 Repository Structure
+- `Raw Dataset.csv` → RBI ATM/POS/Card statistics (2022–2025)  
+- `Bankwise_ATM_POS_Card_Statistics_2022_onwards.xlsx` → Cleaned dataset  
+- `EDA_Notebook.ipynb` → Exploratory Data Analysis (Python)  
+- `README.md` → Documentation & insights  
 
-```text
-├── data/
-│   ├── raw/                   # Original uncleaned datasets
-│   └── processed/             # Cleaned and engineered data files
-├── notebooks/
-│   ├── 01_univariate_eda.ipynb
-│   ├── 02_bivariate_analysis.ipynb
-│   ├── 03_multivariate_strategy.ipynb
-│   └── 04_market_concentration.ipynb
-├── scripts/
-│   ├── data_cleaning.py       # Preprocessing & outlier handling
-│   ├── metrics_calculator.py  # Central tendency & dispersion functions
-│   └── visualization.py       # Custom plot modules
-├── outputs/
-│   ├── figures/               # Generated charts & plots
-│   └── summary_reports/       # Exported statistical summaries
-├── README.md                  # Project Documentation
-└── requirements.txt           # Python dependency specifications
- 
+---
+
+## 📊 Analytical Framework
+1. **Data Cleaning** → Handle missing values, normalize formats.  
+2. **Exploratory Analysis** → ATM vs POS growth, card issuance.  
+3. **Outlier Detection** → IQR, Z‑score, DBSCAN clustering.  
+4. **Visualization** → Trend charts, comparative bar plots, heatmaps.  
+5. **Business Insights** → ATM saturation, POS adoption, digital vs physical channel dynamics.  
+
+---
+
+## 📈 Sample Visuals
+![ATM Deployment Trend](images/atm_trend.png)  
+![POS Growth](images/pos_growth.png)  
+![Card Issuance](images/card_issuance.png)  
+
+---
+
+## 💡 Key Insights
+- **ATM Deployment** → Public sector banks show slower growth vs private banks.  
+- **POS Expansion** → Digital adoption accelerating post‑2023, especially in Tier‑2 cities.  
+- **Card Issuance** → Credit card penetration rising, debit card growth plateauing.  
+- **Outliers** → High‑value transactions represent corporate payments, not errors.  
+
+---
+
+## 🚀 Recruiter Value
+This project demonstrates:  
+- **Data wrangling & visualization skills** (Python, Pandas, Seaborn).  
+- **Business analytics application** in banking & finance.  
+- **Portfolio readiness** with reproducible notebooks + professional documentation.  
+
+---
