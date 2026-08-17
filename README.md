@@ -56,11 +56,7 @@ Focus: ATM deployment (on-site vs off-site), POS expansion, card issuance, and t
 5. **Business Insights** → ATM saturation, POS adoption, digital vs physical channel dynamics.  
 
 ---
-
-## 📈 Sample Visuals
-![ATM Deployment Trend](images/atm_trend.png)  
-![POS Growth](images/pos_growth.png)  
-![Card Issuance](images/card_issuance.png)  
+ 
 
 ---
 
@@ -72,8 +68,8 @@ Focus: ATM deployment (on-site vs off-site), POS expansion, card issuance, and t
 
 ---
 
-## 🚀 Recruiter Value
-This project demonstrates:  
+
+### This project demonstrates:  
 - **Data wrangling & visualization skills** (Python, Pandas, Seaborn).  
 - **Business analytics application** in banking & finance.  
 - **Portfolio readiness** with reproducible notebooks + professional documentation.  
